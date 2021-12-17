@@ -2,6 +2,8 @@
 <p>:brazil: Projeto feito no SENAI-SP em C, para conclusão de semestre.</p>
 <p>:us: Project done at SENAI-SP in C, for semester conclusion.</p>
 
+<img width="300" height="200" src="docs/rio_imoveis_logo.png">
+
 ## Sobre - About
 :brazil:
 <p>O objetivo do projeto é facilitar o acesso a empresa e seus dados, para os funcionários, principalemnte aqueles que não possuem conhecimentos em sistemas de computação.</p>
