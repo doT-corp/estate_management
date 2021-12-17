@@ -37,3 +37,27 @@
 * Price.
 
 <p>:computer: <b>GENERAL FUNCTIONS: </b>In the main system, there are functions such as: register the property, view the registrations, exact search for the registration, change data, delete data and exit the program.</p>
+
+## Baixar - Download
+
+<p>:brazil: Para baixar, vá até <a href="https://github.com/doT-corp/estate_management/releases">releases</a>.</p>
+<p>:us: To download, go to <a href="https://github.com/doT-corp/estate_management/releases">releases</a>.</p>
+
+# Repositório Local - Local Repository
+
+* Clonar // Clone
+```
+https://github.com/doT-corp/estate_management.git
+```
+
+* Compilar & Executar // Compile & Run // GCC
+```
+cd estate_management
+gcc cadastro.c -o cadastro
+./cadastro
+```
+
+## :trophy: Mais Informações - More Information
+<p>:brazil: Para mais informações do projeto, vá para a pasta "docs".</p>
+<p>:us: For more project information, go to the "docs" folder.</p>
+<p><i><b><a href="https://github.com/doT-corp/estate_management/tree/main/docs">DOCS</a></i></b></p>
