@@ -52,12 +52,12 @@ void erro(char texto[])
 		system("cls");
 		system("color 04");
 		printf("%s\n", texto);
-		printf("Deseja voltar ao menu?\n[1] Sim\n[2] N„o\nOpÁ„o: ");
+		printf("Deseja voltar ao menu?\n[1] Sim\n[2] N√£o\nOp√ß√£o: ");
 		scanf("%d", &opcao);
 		if(opcao < 1 || opcao > 2)
 		{
 			system("cls");
-			printf("Valor digitado inv·lido.\n");
+			printf("Valor digitado inv√°lido.\n");
 			Beep(800, 500);
 		}
 		else if(opcao == 1)
@@ -103,13 +103,13 @@ void menu_inicial()
 		{
 			system("cls");
 			system("color 0A");
-			printf("Bem-Vindo ao cadastro de imÛveis 2.0v\n\n\n						     Rio ImÛveis\n\n						  Sess„o do Usu·rio\n				   __________________________________________________\n\n						    [1] Registrar\n						    [2] Login\n	 					    [3] Sair\n\n	 					    OpÁ„o: ");
+			printf("Bem-Vindo ao cadastro de im√≥veis 2.0v\n\n\n						     Rio Im√≥veis\n\n						  Sess√£o do Usu√°rio\n				   __________________________________________________\n\n						    [1] Registrar\n						    [2] Login\n	 					    [3] Sair\n\n	 					    Op√ß√£o: ");
 			scanf("%d", &opcao);
 			if(opcao < 1 || opcao > 3)
 			{
 				system("cls");
 				system("color 04");
-				printf("Valor digitado inv·lido.\n");
+				printf("Valor digitado inv√°lido.\n");
 				Beep(800, 500);
 			}
 		}
@@ -126,7 +126,7 @@ void menu_inicial()
 				break;
 			default:
 				system("cls");
-				printf("Valor digitado inv·lido.\n");
+				printf("Valor digitado inv√°lido.\n");
 				system("pause");
 				break;
 		}
@@ -197,14 +197,14 @@ void menu_principal()
 		{
 			system("color 0A");
 			system("cls");
-			printf("\t\t\t\t\t\t   Ol· %s\n\t\t\t\t Seja muito bem-vindo ao cadastro de imÛveis \n\n\n",nome);
-			printf("\t\t\t\t ---------------------Menu---------------------\n\t\t\t\t [1] Cadastro\n\t\t\t\t [2] Listar ImÛveis\n\t\t\t\t [3] Buscar\n\t\t\t\t [4] Remover ImÛvel\n\t\t\t\t [5] Alterar ImÛvel\n\t\t\t\t [6] InformaÁıes do Sistema\n\t\t\t\t [7] Deslogar\n\n\t\t\t\t OpÁ„o: ");
+			printf("\t\t\t\t\t\t   Ol√° %s\n\t\t\t\t Seja muito bem-vindo ao cadastro de im√≥veis \n\n\n",nome);
+			printf("\t\t\t\t ---------------------Menu---------------------\n\t\t\t\t [1] Cadastro\n\t\t\t\t [2] Listar Im√≥veis\n\t\t\t\t [3] Buscar\n\t\t\t\t [4] Remover Im√≥vel\n\t\t\t\t [5] Alterar Im√≥vel\n\t\t\t\t [6] Informa√ß√µes do Sistema\n\t\t\t\t [7] Deslogar\n\n\t\t\t\t Op√ß√£o: ");
 			scanf("%d", &opcao);
 			if(opcao < 1 || opcao > 7)
 			{
 				system("cls");
 				system("color 04");
-				printf("Valor digitado inv·lido.\n");
+				printf("Valor digitado inv√°lido.\n");
 				Beep(800, 500);
 			}
 		}
@@ -233,7 +233,7 @@ void menu_principal()
 				break;
 			default:
 				system("cls");
-				printf("Valor digitado inv·lido.\n");
+				printf("Valor digitado inv√°lido.\n");
 				system("pause");
 				break;
 		}
@@ -245,10 +245,10 @@ void info_system()
 {
 	system("color 0A");
 	system("cls");
-    printf("InformaÁıes do aplicativo:\n\nWindows 10,8,7\nFeito em Linguagem C\n\nRequisitado para Rio ImÛveis\n\nFeito por:\n\n-Victor da Silva\n-Diego Augusto\n-Guilherme Samuel\n-Camily VitÛria\n-Diego Artur\n");
+    printf("Informa√ß√µes do aplicativo:\n\nWindows 10,8,7\nFeito em Linguagem C\n\nRequisitado para Rio Im√≥veis\n\nFeito por:\n\n-Victor da Silva\n-Diego Augusto\n-Guilherme Samuel\n-Camily Vit√≥ria\n-Diego Artur\n");
     printf("\nTivemos ajuda de pessoas de fora e de sites especializados\n");
-    printf("\nMuito obrigado pela confianÁa e incentivo");
-    printf("\nInstruÁıes: Professor Sud·rio");
+    printf("\nMuito obrigado pela confian√ßa e incentivo");
+    printf("\nInstru√ß√µes: Professor Sud√°rio");
     printf("\n\n\n\n\n\n\n ;)\n\n");
     system("pause");
 }
@@ -261,7 +261,7 @@ void preenchimento(int linha)
     {
     	
         encontrou = false;
-        printf("Digite o CEP (apenas n˙meros): ");
+        printf("Digite o CEP (apenas n√∫meros): ");
         scanf("%s", cep[linha]);
         for(i = 0; i < LIMITE_REGISTRO; i++)
         {
@@ -275,18 +275,18 @@ void preenchimento(int linha)
         }
         if(strlen(cep[linha]) != LIMITE_CEP - 1 || encontrou == true)
         {
-            printf("CEP inv·lido, digite apenas n˙meros.\n");
+            printf("CEP inv√°lido, digite apenas n√∫meros.\n");
         }
     }
     //printf("%s\n", cep[0]);
-    printf("Digite o endereÁo: ");
+    printf("Digite o endere√ßo: ");
     fflush(stdin);
     scanf("%[^\n]s", &endereco[linha]);
     encontrou = true;
     while(encontrou == true)
     {
         encontrou = false;
-        printf("Digite o n˙mero do imÛvel: ");
+        printf("Digite o n√∫mero do im√≥vel: ");
         scanf("%s", numero[linha]);
         i++;
         contador++;
@@ -295,7 +295,7 @@ void preenchimento(int linha)
     while(encontrou == true)
     {
         encontrou = false;
-        printf("Digite o preÁo: ");
+        printf("Digite o pre√ßo: ");
         scanf("%s", preco[linha]);
         for(i=0;i<LIMITE_REGISTRO;i++)
         {
@@ -309,7 +309,7 @@ void preenchimento(int linha)
         }
         if(encontrou == true)
         {
-            printf("PreÁo inv·lido, digite apenas n˙meros.\n");
+            printf("Pre√ßo inv√°lido, digite apenas n√∫meros.\n");
         }
     }
 }
@@ -325,7 +325,7 @@ void cadastro()
 		cadastros_concluidos++;
 		opcao = -1;
 		system("cls");
-		printf("Digite 1 para continuar ou qualquer para sair\nOpÁ„o: ");
+		printf("Digite 1 para continuar ou qualquer para sair\nOp√ß√£o: ");
 		scanf("%d", &opcao);
 		linha++;
 	} while(opcao==1);
@@ -346,7 +346,7 @@ void listar()
 		}
 		if(strcmp(cep[linha],"")!= 0)
 		{
-			printf("EndereÁo: %s\nN˙mero do imÛvel: %s\nPreÁo: R$%s.00\nCEP: ", endereco[linha], numero[linha], preco[linha]);
+			printf("Endere√ßo: %s\nN√∫mero do im√≥vel: %s\nPre√ßo: R$%s.00\nCEP: ", endereco[linha], numero[linha], preco[linha]);
 			mascara_cep(linha);
 		}
 		linha++;
@@ -360,7 +360,7 @@ void buscar()
 	int indice,i;
 	system("color 0A");
 	system("cls");
-	printf("Digite o n˙mero do imÛvel: ");
+	printf("Digite o n√∫mero do im√≥vel: ");
 	scanf("%s", &num_pesquisa);
 	
 	for(contador=0;contador<cadastros_concluidos;contador++)
@@ -374,7 +374,7 @@ void buscar()
 	}
 	if(encontrou == false)
 	{
-		erro("N˙mero n„o encontrado.\n");
+		erro("N√∫mero n√£o encontrado.\n");
 		if(opcao == 1)
 		{
 			menu_principal();
@@ -386,7 +386,7 @@ void buscar()
 	}
 	else
 	{
-		printf("EndereÁo: %s\nN˙mero do imÛvel: %s\nPreÁo: R$%s.00\nCEP: ", endereco[indice], numero[indice], preco[indice]);
+		printf("Endere√ßo: %s\nN√∫mero do im√≥vel: %s\nPre√ßo: R$%s.00\nCEP: ", endereco[indice], numero[indice], preco[indice]);
 		mascara_cep(indice);
 	}
 	encontrou = false;
@@ -399,7 +399,7 @@ void apagar()
 	system("color 0A");
 	int indice;
 	system("cls");
-	printf("Digite o n˙mero do imÛvel: ");
+	printf("Digite o n√∫mero do im√≥vel: ");
 	scanf("%s", &num_pesquisa);
 	for(contador = 0; contador < cadastros_concluidos; contador++)
 	{
@@ -412,7 +412,7 @@ void apagar()
 	}
 	if(encontrou == false)	
 	{
-		erro("N˙mero n„o encontrado.\n");
+		erro("N√∫mero n√£o encontrado.\n");
 		if(opcao == 1)
 		{
 			menu_principal();
@@ -426,15 +426,15 @@ void apagar()
 	{
 		while(opcao < 1 || opcao > 3)
 		{
-			printf("EndereÁo: %s\nN˙mero do imÛvel: %s\nPreÁo: R$%s.00\nCEP: ", endereco[indice], numero[indice], preco[indice]);
+			printf("Endere√ßo: %s\nN√∫mero do im√≥vel: %s\nPre√ßo: R$%s.00\nCEP: ", endereco[indice], numero[indice], preco[indice]);
 			mascara_cep(indice);
-			printf("\nDeseja deletar o seguinte imÛvel?\n[1] Sim\n[2] N„o\n[3] Voltar ao Menu\nOpÁ„o: ");
+			printf("\nDeseja deletar o seguinte im√≥vel?\n[1] Sim\n[2] N√£o\n[3] Voltar ao Menu\nOp√ß√£o: ");
 			scanf("%d", &opcao);
 			if(opcao < 1 || opcao > 3)
 			{
 				system("cls");
 				system("color 04");
-				printf("Valor digitado inv·lido.\n");
+				printf("Valor digitado inv√°lido.\n");
 				Beep(800, 500);
 			}
 		}
@@ -475,7 +475,7 @@ void alterar()
 	int indice;
 	system("color 0A");
     system("cls");
-	printf("Digite o n˙mero do imÛvel: ");
+	printf("Digite o n√∫mero do im√≥vel: ");
 	scanf("%s", &num_pesquisa);
 	for(contador = 0; contador < cadastros_concluidos; contador++)
 	{
@@ -488,7 +488,7 @@ void alterar()
 	}
 	if(encontrou == false)	
 	{
-		erro("N˙mero n„o encontrado.\n");
+		erro("N√∫mero n√£o encontrado.\n");
 		if(opcao == 1)
 		{
 			menu_principal();
@@ -504,15 +504,15 @@ void alterar()
 		while(opcao < 1 || opcao > 3)
 		{
 			system("color 0A");
-			printf("EndereÁo: %s\nN˙mero do imÛvel: %s\nPreÁo: R$%s.00\nCEP: ", endereco[indice], numero[indice], preco[indice]);
+			printf("Endere√ßo: %s\nN√∫mero do im√≥vel: %s\nPre√ßo: R$%s.00\nCEP: ", endereco[indice], numero[indice], preco[indice]);
 			mascara_cep(indice);
-			printf("\nDeseja alterar o seguinte imÛvel?\n[1] Sim\n[2] N„o\n[3] Voltar ao menu\nOpÁ„o: ");
+			printf("\nDeseja alterar o seguinte im√≥vel?\n[1] Sim\n[2] N√£o\n[3] Voltar ao menu\nOp√ß√£o: ");
 			scanf("%d", &opcao);
 			if(opcao < 1 || opcao > 3)
 			{
 				system("cls");
 				system("color 04");
-				printf("Valor digitado inv·lido.\n");
+				printf("Valor digitado inv√°lido.\n");
 				Beep(800, 500);
 			}
 		}
