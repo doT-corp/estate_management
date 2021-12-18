@@ -51,11 +51,6 @@
 
 ## Repositório Local - Local Repository
 
-* Clonar // Clone
-```
-https://github.com/doT-corp/estate_management.git
-```
-
 * Compilar & Executar // Compile & Run // GCC
 ```
 cd estate_management
