@@ -8,10 +8,12 @@
 :brazil:
 <p>O objetivo do projeto é facilitar o acesso a empresa e seus dados, para os funcionários, principalemnte aqueles que não possuem conhecimentos em sistemas de computação.</p>
 <p><b>Ele faz o cadastro do local do imóvel comprado, irá listar todos os cadastros feitos e também pesquisa, para otimização de tempo para quem está fazendo o cadastro.</b></p>
+<p><b><i>:part_alternation_mark: ATENÇÃO: </i></b>O projeto não possui nenhum sistema de banco de dados. Caso o programa seja fechado, todos os dados serão deletados (Apenas para teste).</p>
 
 :us:
 <p>The objective of the project is to facilitate the access to the company and its data, for the employees, especially those who do not have knowledge in computer systems.</p>
 <p><b>It makes the registration of the location of the purchased property, will list all the registrations made and also search, for time optimization for who is making the registration.</b></p>
+<p><b><i>:part_alternation_mark: WARNING: </i></b>The project does not have any database system. If the program is closed, all data will be deleted (test only).</p>
 
 ## Operação - Operation
 :brazil:
