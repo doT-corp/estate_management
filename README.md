@@ -1,4 +1,4 @@
-# :computer: Rio Imóveis' Estate/Property Management Program
+# :computer: Rio Imóveis Estate/Property Management Program
 <p>:brazil: Projeto feito no SENAI-SP em C, para conclusão de semestre.</p>
 <p>:us: Project done at SENAI-SP in C, for semester conclusion.</p>
 
