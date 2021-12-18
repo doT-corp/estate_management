@@ -40,6 +40,10 @@
 
 <p>:computer: <b>GENERAL FUNCTIONS: </b>In the main system, there are functions such as: register the property, view the registrations, exact search for the registration, change data, delete data and exit the program.</p>
 
+## Preview
+
+<img src="docs/preview.gif">
+
 ## Baixar - Download
 
 <p>:brazil: Para baixar, vá até <a href="https://github.com/doT-corp/estate_management/releases">releases</a>.</p>
